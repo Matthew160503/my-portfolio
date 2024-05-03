@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
-                    <NavLink to='/' className="logo">
+                    <NavLink to='https://Matthew160503.github.io/my-portfolio/' className="logo">
                         <strong>My Portfolio</strong>
                     </NavLink>
 

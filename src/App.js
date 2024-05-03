@@ -17,10 +17,22 @@ function App() {
                 <ScrollToTop />
                 <Navbar />
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/project/:id" element={<ProjectPage />} />
-                    <Route path="/contacts" element={<Contacts />} />
+                    <Route
+                        path="https://Matthew160503.github.io/my-portfolio/"
+                        element={<Home />}
+                    />
+                    <Route
+                        path="https://Matthew160503.github.io/my-portfolio/projects"
+                        element={<Projects />}
+                    />
+                    <Route
+                        path="https://Matthew160503.github.io/my-portfolio/project/:id"
+                        element={<ProjectPage />}
+                    />
+                    <Route
+                        path="https://Matthew160503.github.io/my-portfolio/contacts"
+                        element={<Contacts />}
+                    />
                 </Routes>
                 <Footer />
             </Router>
