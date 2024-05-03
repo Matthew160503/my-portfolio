@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { projects } from "./../helpers/projectList";
+import { projects } from "./../helpers/projectList.js";
 
 import BtnGitHub from "./../components/btnGitHub/BtnGitHub";
 
